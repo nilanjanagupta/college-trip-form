@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+margin: auto;
+/*background-color: antiquewhite;*/
+padding: 26px;
+
+}
+.container h3,p{
+    text-align: center;
+} 
+input,textarea{
+    width: 80%;
+   margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: none;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    padding: 10px;
+     margin: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.kc{
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    z-index: -1;
+}
